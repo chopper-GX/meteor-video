@@ -9,6 +9,7 @@ html, body {
   margin:0;
   padding:0;
   background:black;
+  overflow:hidden;
 }
 
 video {
@@ -22,12 +23,14 @@ video {
 <body>
 
 <video
-controls
+autoplay
+muted
+loop
 playsinline
 webkit-playsinline
-preload="metadata">
+preload="auto">
 
-<source src="https://www.dropbox.com/scl/fi/9bjtrmtf39km3r3oe1xls/video.mp4?rlkey=8j1likw87tq09utr6z37qed46&raw=1" type="video/mp4">
+<source src="./video2.mp4" type="video/mp4">
 
 </video>
 
